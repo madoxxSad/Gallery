@@ -1,0 +1,33 @@
+CRITICAL - 2022-05-11 16:32:19 --> Undefined property: App\Controllers\Gallery::$load
+#0 C:\xampp\htdocs\appweb\app\Controllers\Gallery.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\appweb\system\CodeIgniter.php(809): App\Controllers\Gallery->__construct()
+#2 C:\xampp\htdocs\appweb\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\appweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 16:35:45 --> Undefined property: App\Controllers\Gallery::$load
+#0 C:\xampp\htdocs\appweb\app\Controllers\Gallery.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\appweb\system\CodeIgniter.php(809): App\Controllers\Gallery->__construct()
+#2 C:\xampp\htdocs\appweb\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\appweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 16:35:46 --> Undefined property: App\Controllers\Gallery::$load
+#0 C:\xampp\htdocs\appweb\app\Controllers\Gallery.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\appweb\system\CodeIgniter.php(809): App\Controllers\Gallery->__construct()
+#2 C:\xampp\htdocs\appweb\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\appweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 16:43:23 --> Undefined property: App\Controllers\Gallery::$load
+#0 C:\xampp\htdocs\appweb\app\Controllers\Gallery.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\appweb\system\CodeIgniter.php(809): App\Controllers\Gallery->__construct()
+#2 C:\xampp\htdocs\appweb\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\appweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 16:44:19 --> Call to undefined method App\Controllers\Gallery::initController()
+#0 C:\xampp\htdocs\appweb\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp\htdocs\appweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\appweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}

@@ -1,0 +1,13 @@
+ERROR - 2023-04-24 13:50:51 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2023-04-24 13:50:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\laragon\www\appweb\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\appweb\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\appweb\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\appweb\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#4 C:\laragon\www\appweb\app\Controllers\Dashboard.php(13): CodeIgniter\BaseModel->find('1')
+#5 C:\laragon\www\appweb\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\laragon\www\appweb\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\laragon\www\appweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\appweb\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

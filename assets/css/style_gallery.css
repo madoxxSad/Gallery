@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapp {
+  width: 95%;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.title-nav {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  margin-left: 120px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #131516;
+  margin-right: 3px;
+}
+
+.add {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-add,
+.link-exit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.link-add span,
+.link-exit span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #131516;
+}
+
+.icon-add,
+.icon-exit {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.exit {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link-exit {
+  margin-right: 120px;
+}
+
+.gallery {
+  width: 100%;
+  height: 90%;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-gallery {
+  width: 270px;
+  height: 480px;
+  margin: 25px;
+}
+
+.image {
+  width: 100%;
+  height: 90%;
+}
+
+
+@supports (object-fit: cover) {
+  .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+.caption {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.txt-capt{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  font-size: 16px;
+  font-weight: 500;
+  color: #131516;
+}
+
+.delet-capt{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.delete-img{
+  width: 25px;
+  height: 25px;
+}
